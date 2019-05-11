@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "netty.sample.proto";
+option java_multiple_files = true;
+
+message UnixTime {
+    int32 value = 1;
+}
